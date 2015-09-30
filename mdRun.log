@@ -1,0 +1,65 @@
+WARNING: Specify the input file from the command line.
+Load default configuration file "input/config.ini":
+
+[general]=UNDEF
+[general:compute]=[ON]
+[general:fix]=[ON]
+[system]=UNDEF
+[system:dimension]=[2]
+[system:neighbor]=[6.0]
+[time]=UNDEF
+[time:run]=[10000]
+[time:timestep]=[1e-3]
+[data]=UNDEF
+[data:mode]=[Set]
+[data:ntype]=[2]
+[data:ncount]=[100]
+[potential]=UNDEF
+[potential:included]=[ON]
+[potential:type]=[MORSE]
+[potential:paramets]=[input/morse.he]
+[thermostat]=UNDEF
+[thermostat:included]=[ON]
+[thermostat:type]=[BERENSDEN]
+[thermostat:niter]=[10]
+[thermostat:tstart]=[800]
+[thermostat:tstop]=[1000]
+[berensden]=UNDEF
+[berensden:tau]=[10]
+[rescale]=UNDEF
+[rescale:fraction]=[1]
+[rescale:window]=[2]
+[dump]=UNDEF
+[dump:included]=[ON]
+[dumpfile]=UNDEF
+[dumpfile:included]=[OFF]
+[dumpfile:output]=[dump]
+[dumpfile:niter]=[1000]
+[dumpimage]=UNDEF
+[dumpimage:included]=[OFF]
+[dumpimage:output]=[snap]
+[dumpimage:niter]=[2000]
+[dumpmovie]=UNDEF
+[dumpmovie:included]=[OFF]
+[dumpmovie:output]=[mow]
+[dumpmovie:niter]=[20000]
+[print]=UNDEF
+[print:included]=[ON]
+[print:niter]=[1000]
+[rdf]=UNDEF
+[rdf:included]=[OFF]
+[rdf:output]=[rdf.dat]
+[rdf:nstart]=[50000]
+[rdf:rmax]=[15]
+[rdf:precision]=[0.001]
+
+1000	 7.383137	 7.054515	 14.437652	 818.254751	 
+2000	 6.379569	 7.260445	 13.640014	 842.621184	 
+3000	 4.176864	 7.427584	 11.604448	 861.961622	 
+4000	 2.680110	 7.593160	 10.273270	 881.090456	 
+5000	 1.920973	 7.760722	 9.681695	 900.463549	 
+6000	 1.177479	 7.935512	 9.112991	 920.781733	 
+7000	 0.536063	 8.104156	 8.640219	 940.306040	 
+8000	 0.258347	 8.273927	 8.532274	 959.972535	 
+9000	 0.194032	 8.445124	 8.639156	 979.822128	 
+10000	 0.156495	 8.617913	 8.774407	 999.878330	 
