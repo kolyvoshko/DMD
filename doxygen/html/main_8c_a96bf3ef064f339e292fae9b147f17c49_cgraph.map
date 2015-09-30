@@ -1,8 +1,0 @@
-<map id="initialize" name="initialize">
-<area shape="rect" id="node2" href="$main_8c.html#acafb693d7984a7ca667caa0dbc052d3e" title="setAtomType" alt="" coords="123,5,221,32"/>
-<area shape="rect" id="node3" href="$main_8c.html#ae108c6da33904b616a5ca2269540c192" title="setInitCoords" alt="" coords="123,56,221,83"/>
-<area shape="rect" id="node4" href="$main_8c.html#a0b331783b2704afe3bf9d94f6d32da18" title="setInitVelocs" alt="" coords="123,107,221,133"/>
-<area shape="rect" id="node5" href="$pair_8c.html#ad6565146c8fae538d8d32badb21fa032" title="Initialize pair interaction. " alt="" coords="139,157,205,184"/>
-<area shape="rect" id="node6" href="$pair_8c.html#ad7370dbac4a78c6acdebf0a72bde5dc6" title="Initialize Leonard&#45;Jones interaction. " alt="" coords="281,132,368,159"/>
-<area shape="rect" id="node7" href="$pair_8c.html#ab8f9cd9bd031cb9aa9a505bf810da259" title="Initialize Morse interaction. " alt="" coords="269,183,380,209"/>
-</map>

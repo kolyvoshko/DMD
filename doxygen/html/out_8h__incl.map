@@ -1,7 +1,0 @@
-<map id="out.h" name="out.h">
-<area shape="rect" id="node2" href="$log_8h.html" title="Log header file. " alt="" coords="56,80,107,107"/>
-<area shape="rect" id="node3" href="$dump_8h.html" title="Dump module header. " alt="" coords="131,80,197,107"/>
-<area shape="rect" id="node4" href="$struct_8h.html" title="Implements a system, options and key structures. " alt="" coords="125,155,203,181"/>
-<area shape="rect" id="node5" href="$iniparser_8h.html" title="Parser for ini files. " alt="" coords="81,229,247,256"/>
-<area shape="rect" id="node9" href="$dictionary_8h.html" title="Implements a dictionary for string variables. " alt="" coords="161,304,250,331"/>
-</map>

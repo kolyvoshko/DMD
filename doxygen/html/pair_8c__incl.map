@@ -1,9 +1,0 @@
-<map id="pair.c" name="pair.c">
-<area shape="rect" id="node5" href="$pair_8h.html" title="Pair module header. " alt="" coords="230,155,285,181"/>
-<area shape="rect" id="node11" href="$out_8h.html" title="Output module header: output data with program. " alt="" coords="136,80,221,107"/>
-<area shape="rect" id="node6" href="$struct_8h.html" title="Implements a system, options and key structures. " alt="" coords="130,229,209,256"/>
-<area shape="rect" id="node7" href="$iniparser_8h.html" title="Parser for ini files. " alt="" coords="86,304,253,331"/>
-<area shape="rect" id="node9" href="$dictionary_8h.html" title="Implements a dictionary for string variables. " alt="" coords="94,379,183,405"/>
-<area shape="rect" id="node12" href="$log_8h.html" title="Log header file. " alt="" coords="155,155,205,181"/>
-<area shape="rect" id="node13" href="$dump_8h.html" title="Dump module header. " alt="" coords="65,155,130,181"/>
-</map>

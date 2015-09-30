@@ -1,8 +1,0 @@
-<map id="writeRDFarray" name="writeRDFarray">
-<area shape="rect" id="node2" href="$compute_8h.html#a983e3c1793481006c71705cfbafee586" title="Run dr submodule compute module. " alt="" coords="157,5,248,32"/>
-<area shape="rect" id="node3" href="$advance_8c.html#a25392b7ca06d38e71ca5520856578aa0" title="compute new acceleration " alt="" coords="296,5,401,32"/>
-<area shape="rect" id="node4" href="$advance_8c.html#ab4b0171547c7b5f001231abce17618d1" title="compute new coordinations, velocities and acceleration " alt="" coords="449,5,541,32"/>
-<area shape="rect" id="node5" href="$advance_8c.html#afa14a43e975f55b8bdc55d86ba63ff29" title="run advance core " alt="" coords="589,5,684,32"/>
-<area shape="rect" id="node6" href="$advance_8h.html#ae5b7fcb9c9339525ee277052d6c20ce4" title="advance" alt="" coords="732,5,801,32"/>
-<area shape="rect" id="node7" href="$main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="849,5,900,32"/>
-</map>

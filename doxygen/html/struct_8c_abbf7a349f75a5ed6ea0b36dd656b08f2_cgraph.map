@@ -1,8 +1,0 @@
-<map id="pSys_init" name="pSys_init">
-<area shape="rect" id="node2" href="$iniparser_8c.html#a694eb1110f4200db8648820a0bb405fa" title="Get the string associated to a key, convert to an int. " alt="" coords="129,5,240,32"/>
-<area shape="rect" id="node3" href="$iniparser_8c.html#a7894f8480e1f254d4a1b4a31bdc51b46" title="Get the string associated to a key. " alt="" coords="288,31,416,57"/>
-<area shape="rect" id="node6" href="$log_8c.html#a55556e25c0ae1430d8bb2e458209253f" title="logs a ERROR message; execution is interrupted " alt="" coords="154,107,215,133"/>
-<area shape="rect" id="node4" href="$dictionary_8c.html#a967311464f457bcb8150ce981ef3c6dd" title="Get a value from a dictionary. " alt="" coords="464,31,567,57"/>
-<area shape="rect" id="node5" href="$dictionary_8c.html#a7c1ef0a729e668d1e8d6a7e774feaf2e" title="Compute the hash key for a string. " alt="" coords="615,31,728,57"/>
-<area shape="rect" id="node7" href="$log_8c.html#aedaf8d67bc16ed5663479b8ecc63478b" title="print message to stderr and to log file " alt="" coords="304,107,400,133"/>
-</map>

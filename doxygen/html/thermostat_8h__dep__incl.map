@@ -1,8 +1,0 @@
-<map id="thermostat.h" name="thermostat.h">
-<area shape="rect" id="node2" href="$fix_8h.html" title="Fix module header. " alt="" coords="126,80,173,107"/>
-<area shape="rect" id="node7" href="$thermostat_8c.html" title="Thermostat module. " alt="" coords="197,80,291,107"/>
-<area shape="rect" id="node3" href="$advance_8c.html" title="Advance module: run advance style modeling. " alt="" coords="5,155,85,181"/>
-<area shape="rect" id="node4" href="$advance_8h.html" title="Advance module header: run advance style modeling. " alt="" coords="109,155,189,181"/>
-<area shape="rect" id="node6" href="$fix_8c.html" title="Fix module. " alt="" coords="214,155,261,181"/>
-<area shape="rect" id="node5" href="$main_8c.html" title="Molecular modeling program. " alt="" coords="119,229,180,256"/>
-</map>

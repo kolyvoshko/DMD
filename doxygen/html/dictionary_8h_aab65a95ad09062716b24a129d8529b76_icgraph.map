@@ -1,6 +1,0 @@
-<map id="dictionary_set" name="dictionary_set">
-<area shape="rect" id="node2" href="$iniparser_8h.html#ad526324b54dbfe04d636360883f4f874" title="Set an entry in a dictionary. " alt="" coords="159,5,255,32"/>
-<area shape="rect" id="node3" href="$iniparser_8h.html#ab0be559bfb769224b3f1b75e26242a67" title="Parse an ini file and return an allocated dictionary object. " alt="" coords="156,56,259,83"/>
-<area shape="rect" id="node4" href="$advance_8h.html#ae5b7fcb9c9339525ee277052d6c20ce4" title="advance" alt="" coords="307,56,376,83"/>
-<area shape="rect" id="node5" href="$main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="424,56,475,83"/>
-</map>
