@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="durkMD" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/durkMD" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2 -march=amdfam10 -mcx16 -mpopcnt -pipe -ffast-math" />
+					<Add directory="../iniparser" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:/Program Files/GnuWin32/include" />
+					<Add directory="../iniparser" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="C:\Program Files\GnuWin32\lib\libgd.dll.a" />
+					<Add directory="../iniparser" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/durkMD" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="../iniparser" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/advance.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/advance.h" />
+		<Unit filename="src/compute/compute.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/compute/compute.h" />
+		<Unit filename="src/compute/rdf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/compute/rdf.h" />
+		<Unit filename="src/fix/fix.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fix/fix.h" />
+		<Unit filename="src/fix/thermostat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fix/thermostat.h" />
+		<Unit filename="src/init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/init.h" />
+		<Unit filename="src/input/iniparser/dictionary.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/input/iniparser/dictionary.h" />
+		<Unit filename="src/input/iniparser/iniparser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/input/iniparser/iniparser.h" />
+		<Unit filename="src/input/input.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/input/input.h" />
+		<Unit filename="src/input/parsefile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/input/parsefile.h" />
+		<Unit filename="src/out/dump.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/out/dump.h" />
+		<Unit filename="src/out/log.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/out/log.h" />
+		<Unit filename="src/out/out.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/out/out.h" />
+		<Unit filename="src/pair/pair.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/pair/pair.h" />
+		<Unit filename="src/struct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/struct.h" />
+		<Unit filename="src/utils/utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/utils/utils.h" />
+		<Unit filename="src/verlet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/verlet.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output latex="1" />
+				<doxyfile_dot class_diagrams="1" />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

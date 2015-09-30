@@ -1,0 +1,413 @@
+# depslib dependency file v1.0
+1437658096 source:d:\project\durkmd\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<string.h>
+	"gd.h"
+	"src/struct.h"
+	"src/compute/compute.h"
+	"src/dump/dump.h"
+	"src/fix/fix.h"
+	"src/in/in.h"
+	"src/pair/pair.h"
+
+1437657968 d:\project\durkmd\src\struct.h
+	"struct.c"
+
+1437628243 d:\project\durkmd\src\pair\pair.h
+	"../struct.h"
+	"pair.c"
+
+1437631120 d:\project\durkmd\src\pair\pair.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"pair.h"
+
+1437656827 d:\project\durkmd\src\compute\compute.h
+	"../struct.h"
+	"rdf.h"
+	"compute.c"
+
+1437656817 d:\project\durkmd\src\compute\compute.c
+	"compute.h"
+
+1437654683 d:\project\durkmd\src\dump\dump.h
+	"../struct.h"
+	"dump.c"
+
+1437654668 d:\project\durkmd\src\dump\dump.c
+	<stdio.h>
+	<stdlib.h>
+	"gd.h"
+	"dump.h"
+
+1437616086 d:\project\durkmd\src\fix\fix.h
+	"../struct.h"
+	"termostat.h"
+	"fix.c"
+
+1437616035 d:\project\durkmd\src\fix\termostat.h
+	"termostat.c"
+
+1437651599 d:\project\durkmd\src\fix\fix.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"fix.h"
+
+1440014610 source:e:\project\durkmd\main.c
+	"src/advance.h"
+	"src/verlet.h"
+	"src/out/out.h"
+
+1439579709 e:\project\durkmd\src\struct.h
+	"input/iniparser/iniparser.h"
+
+1438213092 e:\project\durkmd\src\struct.c
+	"struct.h"
+
+1439067142 e:\project\durkmd\src\pair\pair.h
+	"../struct.h"
+
+1438213836 e:\project\durkmd\src\pair\pair.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1439583233 e:\project\durkmd\src\compute\compute.h
+	"../struct.h"
+	"../pair/pair.h"
+	"rdf.h"
+
+1439066913 e:\project\durkmd\src\compute\rdf.h
+	"../struct.h"
+
+1438214599 e:\project\durkmd\src\compute\rdf.c
+	"rdf.h"
+
+1438209520 e:\project\durkmd\src\compute\compute.c
+	"compute.h"
+
+1439067011 e:\project\durkmd\src\fix\fix.h
+	"../struct.h"
+	"thermostat.h"
+
+1438118052 e:\project\durkmd\src\fix\termostat.h
+	"termostat.c"
+
+1438118059 e:\project\durkmd\src\fix\termostat.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"termostat.h"
+
+1438214572 e:\project\durkmd\src\fix\fix.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"fix.h"
+
+1439066945 e:\project\durkmd\src\dump\dump.h
+	"../struct.h"
+
+1438214591 e:\project\durkmd\src\dump\dump.c
+	<stdio.h>
+	<stdlib.h>
+	"gd.h"
+	"dump.h"
+
+1437657764 d:\project\durkmd\src\struct.c
+	"struct.h"
+
+1437656649 d:\project\durkmd\src\compute\rdf.h
+	"rdf.c"
+
+1437656658 d:\project\durkmd\src\compute\rdf.c
+	"rdf.h"
+
+1437651674 d:\project\durkmd\src\fix\termostat.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"termostat.h"
+
+1437663208 d:\project\durkmd\src\in\in.h
+	"../struct.h"
+	"in.c"
+
+1437662924 d:\project\durkmd\src\in\in.c
+	"in.h"
+
+1437681303 e:\project\durkmd\src\in\in.h
+	"../struct.h"
+	"in.c"
+
+1437666850 e:\project\durkmd\src\in\confpars.h
+	"confpars.c"
+
+1437666683 e:\project\durkmd\src\in\confpars.c
+
+1437681335 e:\project\durkmd\src\in\in.c
+	"in.h"
+
+1439071371 e:\project\durkmd\src\input\input.h
+	"../struct.h"
+
+1437695677 e:\project\durkmd\src\input\confpars.h
+	"confpars.c"
+
+1437696688 e:\project\durkmd\src\input\confpars.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"confpars.h"
+	<windows.h>
+
+1438181969 e:\project\durkmd\src\input\input.c
+
+1437950331 e:\project\durkmd\lib\iniparser\src\iniparser.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"dictionary.h"
+	"iniparser.c"
+	"iniparser.c"
+
+1437950242 e:\project\durkmd\lib\iniparser\src\dictionary.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	"dictionary.c"
+
+1438215510 e:\project\durkmd\src\input\parsefile.h
+	"../struct.h"
+
+1438118242 e:\project\durkmd\src\input\parsefile.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"parsefile.h"
+
+1437950237 e:\project\durkmd\lib\iniparser\src\dictionary.c
+	"dictionary.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+
+1333896297 e:\project\durkmd\lib\iniparser\src\iniparser.c
+	<ctype.h>
+	"iniparser.h"
+
+1438214133 e:\project\durkmd\src\input\iniparser\iniparser.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"dictionary.h"
+
+1438214124 e:\project\durkmd\src\input\iniparser\dictionary.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+
+1333896297 e:\project\durkmd\src\input\iniparser\dictionary.c
+	"dictionary.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+
+1333896297 e:\project\durkmd\src\input\iniparser\iniparser.c
+	<ctype.h>
+	"iniparser.h"
+
+1439067053 e:\project\durkmd\src\fix\thermostat.h
+	"../struct.h"
+	"../compute/compute.h"
+
+1438214578 e:\project\durkmd\src\fix\thermostat.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"thermostat.h"
+
+1439066970 source:e:\project\durkmd\src\dump\dump.c
+	<stdio.h>
+	<stdlib.h>
+	"gd.h"
+	"dump.h"
+
+1437950383 e:\project\iniparser\iniparser.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"dictionary.h"
+	"iniparser.c"
+
+1437950410 e:\project\iniparser\dictionary.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	"dictionary.c"
+
+1333896297 e:\project\iniparser\dictionary.c
+	"dictionary.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+
+1333896297 e:\project\iniparser\iniparser.c
+	<ctype.h>
+	"iniparser.h"
+
+1439579798 source:e:\project\durkmd\src\struct.c
+	"struct.h"
+	"out/out.h"
+	"utils/utils.h"
+
+1438212649 source:e:\project\durkmd\src\struct.h
+	"iniparser.h"
+
+1333896297 source:e:\project\durkmd\src\input\iniparser\dictionary.c
+	"dictionary.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+
+1333896297 source:e:\project\durkmd\src\input\iniparser\iniparser.c
+	<ctype.h>
+	"iniparser.h"
+
+1439583588 source:e:\project\durkmd\src\compute\compute.c
+	"compute.h"
+	"math.h"
+
+1439578847 source:e:\project\durkmd\src\compute\rdf.c
+	"rdf.h"
+	"../out/out.h"
+
+1439578846 source:e:\project\durkmd\src\pair\pair.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"pair.h"
+	"../out/out.h"
+
+1438215478 source:e:\project\durkmd\src\input\input.c
+	"input.h"
+
+1438118242 source:e:\project\durkmd\src\input\parsefile.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"parsefile.h"
+
+1439066994 source:e:\project\durkmd\src\fix\fix.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"fix.h"
+
+1439578850 source:e:\project\durkmd\src\fix\thermostat.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"thermostat.h"
+	"../out/out.h"
+
+1439578847 source:e:\project\durkmd\src\verlet.c
+	<math.h>
+	"out/out.h"
+	"fix/fix.h"
+	"init.h"
+
+1439133382 e:\project\durkmd\src\advance.h
+	"struct.h"
+	"compute/compute.h"
+	"out/out.h"
+	"fix/fix.h"
+	"pair/pair.h"
+	"init.h"
+
+1439134010 e:\project\durkmd\src\verlet.h
+	"struct.h"
+	"compute/compute.h"
+	"out/out.h"
+	"fix/fix.h"
+	"pair/pair.h"
+	"init.h"
+
+1439578850 source:e:\project\durkmd\src\advance.c
+	<math.h>
+	"out/out.h"
+	"fix/fix.h"
+	"init.h"
+
+1439067074 e:\project\durkmd\src\init.h
+	"struct.h"
+	"compute/compute.h"
+	"pair/pair.h"
+
+1439067068 source:e:\project\durkmd\src\init.c
+	<math.h>
+	<time.h>
+	"struct.h"
+	"compute/compute.h"
+	"pair/pair.h"
+
+1439076553 source:e:\project\durkmd\src\output\log.c
+	<stdlib.h>
+	<stdio.h>
+	<stdarg.h>
+
+1439076498 e:\project\durkmd\src\output\log.h
+
+1439071454 source:e:\project\durkmd\src\output\out.c
+
+1439071468 e:\project\durkmd\src\output\out.h
+	"log.h"
+
+1439077751 e:\project\durkmd\src\out\out.h
+	"log.h"
+	"dump.h"
+
+1439578852 e:\project\durkmd\src\out\log.h
+
+1439066945 e:\project\durkmd\src\out\dump.h
+	"../struct.h"
+
+1439578848 source:e:\project\durkmd\src\out\dump.c
+	<stdio.h>
+	<stdlib.h>
+	"gd.h"
+	"log.h"
+	"dump.h"
+
+1439579506 source:e:\project\durkmd\src\out\log.c
+	<stdlib.h>
+	<stdio.h>
+	<stdarg.h>
+	<Windows.h>
+
+1439077731 source:e:\project\durkmd\src\out\out.c
+
+1439096327 source:e:\project\durkmd\src\utils\utils.c
+
+1439096335 e:\project\durkmd\src\utils\utils.h
+
+1439133853 source:e:\project\durkmd\src\leapfrog.c
+	<math.h>
+	"out/out.h"
+	"fix/fix.h"
+	"init.h"
+
