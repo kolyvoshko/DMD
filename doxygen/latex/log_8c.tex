@@ -1,0 +1,168 @@
+\hypertarget{log_8c}{}\section{log.\+c File Reference}
+\label{log_8c}\index{log.\+c@{log.\+c}}
+
+
+create .log file  
+
+
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$stdarg.\+h$>$}\\*
+{\ttfamily \#include $<$Windows.\+h$>$}\\*
+Include dependency graph for log.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=346pt]{log_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{log_8c_a6d3fef197146b932f5ad01fce683a66b}{L\+O\+G\+F\+I\+L\+E}~\char`\"{}md\+Run.\+log\char`\"{}
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{log_8c_a821042d5f30537f776ce823c5d66aada}{}enum {\bfseries Console\+Color} \{ \\*
+{\bfseries Black} = 0, 
+{\bfseries Blue} = 1, 
+{\bfseries Green} = 2, 
+{\bfseries Cyan} = 3, 
+\\*
+{\bfseries Red} = 4, 
+{\bfseries Magenta} = 5, 
+{\bfseries Brown} = 6, 
+{\bfseries Light\+Gray} = 7, 
+\\*
+{\bfseries Dark\+Gray} = 8, 
+{\bfseries Light\+Blue} = 9, 
+{\bfseries Light\+Green} = 10, 
+{\bfseries Light\+Cyan} = 11, 
+\\*
+{\bfseries Light\+Red} = 12, 
+{\bfseries Light\+Magenta} = 13, 
+{\bfseries Yellow} = 14, 
+{\bfseries White} = 15, 
+\\*
+{\bfseries Default} = 15
+ \}\label{log_8c_a821042d5f30537f776ce823c5d66aada}
+
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{log_8c_ab5723caae4ebe425b23f1d23f3e57a4d}{}void \hyperlink{log_8c_ab5723caae4ebe425b23f1d23f3e57a4d}{print\+Log} (const char $\ast$format, va\+\_\+list args)\label{log_8c_ab5723caae4ebe425b23f1d23f3e57a4d}
+
+\begin{DoxyCompactList}\small\item\em print message to stdout and to log file \end{DoxyCompactList}\item 
+\hypertarget{log_8c_aedaf8d67bc16ed5663479b8ecc63478b}{}void \hyperlink{log_8c_aedaf8d67bc16ed5663479b8ecc63478b}{print\+Error\+Log} (const char $\ast$format, va\+\_\+list args)\label{log_8c_aedaf8d67bc16ed5663479b8ecc63478b}
+
+\begin{DoxyCompactList}\small\item\em print error message to to log file \end{DoxyCompactList}\item 
+void \hyperlink{log_8c_a77b29ce4dcc3e3670bc20d4448f03123}{Report\+Error\+Mesage} (const char $\ast$format,...)
+\begin{DoxyCompactList}\small\item\em Report from Error message to stderr and to log file. \end{DoxyCompactList}\item 
+void \hyperlink{log_8c_ab27db41b5a9f0101b8216355919ccdd6}{Report\+Warning\+Message} (const char $\ast$format,...)
+\begin{DoxyCompactList}\small\item\em Report from Warning message to stderr and to log file. \end{DoxyCompactList}\item 
+void \hyperlink{log_8c_a7c2611ed576ddfc24d2a5af9a8a8126b}{Report\+Message} (const char $\ast$format,...)
+\begin{DoxyCompactList}\small\item\em Report from message to stderr and to log file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{log_8c_a7123b479e69d62b3bc498bdd864eab56}{}int {\bfseries Log\+Created} = 0\label{log_8c_a7123b479e69d62b3bc498bdd864eab56}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+create .log file 
+
+\begin{DoxyAuthor}{Author}
+Eugene Kolivoshko (\href{mailto:ekolivoshko@gmail.com}{\tt ekolivoshko@gmail.\+com}) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+August 9 2015 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyCopyright}{Copyright}
+G\+N\+U Public License. 
+\end{DoxyCopyright}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{log_8c_a6d3fef197146b932f5ad01fce683a66b}{}\index{log.\+c@{log.\+c}!L\+O\+G\+F\+I\+L\+E@{L\+O\+G\+F\+I\+L\+E}}
+\index{L\+O\+G\+F\+I\+L\+E@{L\+O\+G\+F\+I\+L\+E}!log.\+c@{log.\+c}}
+\subsubsection[{L\+O\+G\+F\+I\+L\+E}]{\setlength{\rightskip}{0pt plus 5cm}\#define L\+O\+G\+F\+I\+L\+E~\char`\"{}md\+Run.\+log\char`\"{}}\label{log_8c_a6d3fef197146b932f5ad01fce683a66b}
+all \hyperlink{log_8c_a7c2611ed576ddfc24d2a5af9a8a8126b}{Report\+Message()}; messages will be appended to this file 
+
+Definition at line 15 of file log.\+c.
+
+
+
+\subsection{Function Documentation}
+\hypertarget{log_8c_a77b29ce4dcc3e3670bc20d4448f03123}{}\index{log.\+c@{log.\+c}!Report\+Error\+Mesage@{Report\+Error\+Mesage}}
+\index{Report\+Error\+Mesage@{Report\+Error\+Mesage}!log.\+c@{log.\+c}}
+\subsubsection[{Report\+Error\+Mesage(const char $\ast$format,...)}]{\setlength{\rightskip}{0pt plus 5cm}void Report\+Error\+Mesage (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{format, }
+\item[{}]{...}
+\end{DoxyParamCaption}
+)}\label{log_8c_a77b29ce4dcc3e3670bc20d4448f03123}
+
+
+Report from Error message to stderr and to log file. 
+
+logs a E\+R\+R\+O\+R message; execution is interrupted 
+
+Definition at line 95 of file log.\+c.
+
+
+
+Here is the call graph for this function\+:
+% FIG 0
+
+
+\hypertarget{log_8c_a7c2611ed576ddfc24d2a5af9a8a8126b}{}\index{log.\+c@{log.\+c}!Report\+Message@{Report\+Message}}
+\index{Report\+Message@{Report\+Message}!log.\+c@{log.\+c}}
+\subsubsection[{Report\+Message(const char $\ast$format,...)}]{\setlength{\rightskip}{0pt plus 5cm}void Report\+Message (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{format, }
+\item[{}]{...}
+\end{DoxyParamCaption}
+)}\label{log_8c_a7c2611ed576ddfc24d2a5af9a8a8126b}
+
+
+Report from message to stderr and to log file. 
+
+logs a message; execution don\textquotesingle{}t interrupted 
+
+Definition at line 121 of file log.\+c.
+
+
+
+Here is the call graph for this function\+:
+% FIG 1
+
+
+\hypertarget{log_8c_ab27db41b5a9f0101b8216355919ccdd6}{}\index{log.\+c@{log.\+c}!Report\+Warning\+Message@{Report\+Warning\+Message}}
+\index{Report\+Warning\+Message@{Report\+Warning\+Message}!log.\+c@{log.\+c}}
+\subsubsection[{Report\+Warning\+Message(const char $\ast$format,...)}]{\setlength{\rightskip}{0pt plus 5cm}void Report\+Warning\+Message (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{format, }
+\item[{}]{...}
+\end{DoxyParamCaption}
+)}\label{log_8c_ab27db41b5a9f0101b8216355919ccdd6}
+
+
+Report from Warning message to stderr and to log file. 
+
+logs a W\+A\+R\+N\+I\+N\+G message; execution don\textquotesingle{}t interrupted 
+
+Definition at line 109 of file log.\+c.
+
+
+
+Here is the call graph for this function\+:
+% FIG 2
+
+

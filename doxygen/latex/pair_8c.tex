@@ -1,0 +1,138 @@
+\hypertarget{pair_8c}{}\section{pair.\+c File Reference}
+\label{pair_8c}\index{pair.\+c@{pair.\+c}}
+
+
+Pair module.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$math.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}pair.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}../out/out.\+h\char`\"{}}\\*
+Include dependency graph for pair.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{pair_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{pair_8c_a5b427ae8fb01eca5793f717ed0071c91}{}\#define {\bfseries T\+H\+I\+S\+F\+I\+L\+E}~\char`\"{}pair.\+c\char`\"{}\label{pair_8c_a5b427ae8fb01eca5793f717ed0071c91}
+
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{pair_8h_a7a46339856d8d9d1e39044566733c42f}{t\+\_\+pair} \hyperlink{pair_8c_af6d80627dcaa387b1af1c1ec0ed9384a}{t\+\_\+pair\+\_\+init} (\hyperlink{dictionary_8h_a5bd3b2ce42b776c76755ec65642f43af}{dictionary} $\ast$ini)
+\begin{DoxyCompactList}\small\item\em Initialize the structure t\+\_\+pair. \end{DoxyCompactList}\item 
+void \hyperlink{pair_8c_ad6565146c8fae538d8d32badb21fa032}{pair\+\_\+init} (\hyperlink{structt__key}{t\+\_\+key} $\ast$key, \hyperlink{pair_8h_a7a46339856d8d9d1e39044566733c42f}{t\+\_\+pair} $\ast$p)
+\begin{DoxyCompactList}\small\item\em Initialize pair interaction. \end{DoxyCompactList}\item 
+void \hyperlink{pair_8c_a25b3278e216c39fab17774269e4bde6c}{pair} (\hyperlink{structt__key}{t\+\_\+key} $\ast$key, \hyperlink{structt__p_sys}{t\+\_\+p\+Sys} $\ast$p\+Sys, \hyperlink{pair_8h_a7a46339856d8d9d1e39044566733c42f}{t\+\_\+pair} $\ast$p)
+\begin{DoxyCompactList}\small\item\em Run pair interaction. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Pair module. 
+
+\begin{DoxyAuthor}{Author}
+Eugene Kolivoshko (\href{mailto:ekolivoshko@gmail.com}{\tt ekolivoshko@gmail.\+com}) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+August 8 2015 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyCopyright}{Copyright}
+G\+N\+U Public License. 
+\end{DoxyCopyright}
+
+
+\subsection{Function Documentation}
+\hypertarget{pair_8c_a25b3278e216c39fab17774269e4bde6c}{}\index{pair.\+c@{pair.\+c}!pair@{pair}}
+\index{pair@{pair}!pair.\+c@{pair.\+c}}
+\subsubsection[{pair(t\+\_\+key $\ast$key, t\+\_\+p\+Sys $\ast$p\+Sys, t\+\_\+pair $\ast$p)}]{\setlength{\rightskip}{0pt plus 5cm}void pair (
+\begin{DoxyParamCaption}
+\item[{{\bf t\+\_\+key} $\ast$}]{key, }
+\item[{{\bf t\+\_\+p\+Sys} $\ast$}]{p\+Sys, }
+\item[{{\bf t\+\_\+pair} $\ast$}]{p}
+\end{DoxyParamCaption}
+)}\label{pair_8c_a25b3278e216c39fab17774269e4bde6c}
+
+
+Run pair interaction. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & Key structures\+: program management modules \\
+\hline
+{\em p\+Sys} & System object \\
+\hline
+{\em p} & This object have a variable pair interaction. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 71 of file pair.\+c.
+
+\hypertarget{pair_8c_ad6565146c8fae538d8d32badb21fa032}{}\index{pair.\+c@{pair.\+c}!pair\+\_\+init@{pair\+\_\+init}}
+\index{pair\+\_\+init@{pair\+\_\+init}!pair.\+c@{pair.\+c}}
+\subsubsection[{pair\+\_\+init(t\+\_\+key $\ast$key, t\+\_\+pair $\ast$p)}]{\setlength{\rightskip}{0pt plus 5cm}void pair\+\_\+init (
+\begin{DoxyParamCaption}
+\item[{{\bf t\+\_\+key} $\ast$}]{k, }
+\item[{{\bf t\+\_\+pair} $\ast$}]{p}
+\end{DoxyParamCaption}
+)}\label{pair_8c_ad6565146c8fae538d8d32badb21fa032}
+
+
+Initialize pair interaction. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & Key structures\+: program management modules \\
+\hline
+{\em p} & This object have a variable pair interaction. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void
+\end{DoxyReturn}
+Calculate pair interaction constant matrix 
+
+Definition at line 65 of file pair.\+c.
+
+\hypertarget{pair_8c_af6d80627dcaa387b1af1c1ec0ed9384a}{}\index{pair.\+c@{pair.\+c}!t\+\_\+pair\+\_\+init@{t\+\_\+pair\+\_\+init}}
+\index{t\+\_\+pair\+\_\+init@{t\+\_\+pair\+\_\+init}!pair.\+c@{pair.\+c}}
+\subsubsection[{t\+\_\+pair\+\_\+init(dictionary $\ast$ini)}]{\setlength{\rightskip}{0pt plus 5cm}{\bf t\+\_\+pair} t\+\_\+pair\+\_\+init (
+\begin{DoxyParamCaption}
+\item[{{\bf dictionary} $\ast$}]{ini}
+\end{DoxyParamCaption}
+)}\label{pair_8c_af6d80627dcaa387b1af1c1ec0ed9384a}
+
+
+Initialize the structure t\+\_\+pair. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ini} & Dictionary to search \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Initialized t\+\_\+pair structure 
+\end{DoxyReturn}
+
+
+Definition at line 36 of file pair.\+c.
+
+
+
+Here is the call graph for this function\+:
+% FIG 0
+
+

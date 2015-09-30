@@ -1,0 +1,6 @@
+<map id="iniparser_dumpsection_ini" name="iniparser_dumpsection_ini">
+<area shape="rect" id="node2" href="$iniparser_8c.html#ab7607c8fe708cfe16b4fb1debce529fb" title="Finds out if a given entry exists in a dictionary. " alt="" coords="225,5,360,32"/>
+<area shape="rect" id="node3" href="$iniparser_8c.html#a7894f8480e1f254d4a1b4a31bdc51b46" title="Get the string associated to a key. " alt="" coords="408,5,536,32"/>
+<area shape="rect" id="node4" href="$dictionary_8c.html#a967311464f457bcb8150ce981ef3c6dd" title="Get a value from a dictionary. " alt="" coords="584,5,687,32"/>
+<area shape="rect" id="node5" href="$dictionary_8c.html#a7c1ef0a729e668d1e8d6a7e774feaf2e" title="Compute the hash key for a string. " alt="" coords="735,5,848,32"/>
+</map>

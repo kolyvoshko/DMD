@@ -1,0 +1,171 @@
+\hypertarget{pair_8h}{}\section{pair.\+h File Reference}
+\label{pair_8h}\index{pair.\+h@{pair.\+h}}
+
+
+Pair module header.  
+
+
+{\ttfamily \#include \char`\"{}../struct.\+h\char`\"{}}\\*
+Include dependency graph for pair.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=329pt]{pair_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+% FIG 0
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct_pair_morse}{Pair\+Morse}
+\begin{DoxyCompactList}\small\item\em Save Morse potential parameters. \end{DoxyCompactList}\item 
+struct \hyperlink{struct_pair_l_j}{Pair\+L\+J}
+\begin{DoxyCompactList}\small\item\em Save Leonard-\/\+Jones potential parameters. \end{DoxyCompactList}\item 
+struct \hyperlink{struct_pair_coul}{Pair\+Coul}
+\begin{DoxyCompactList}\small\item\em Save Coulomb potential parameters. \end{DoxyCompactList}\item 
+struct \hyperlink{struct__t__pair}{\+\_\+t\+\_\+pair}
+\begin{DoxyCompactList}\small\item\em Pair object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{pair_8h_a31c3b7a132ba8cec8e7f5ad3138f940f}{K\+C\+O\+U\+L}~0
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \hyperlink{struct__t__pair}{\+\_\+t\+\_\+pair} \hyperlink{pair_8h_a7a46339856d8d9d1e39044566733c42f}{t\+\_\+pair}
+\begin{DoxyCompactList}\small\item\em Pair object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{pair_8h_a7a46339856d8d9d1e39044566733c42f}{t\+\_\+pair} \hyperlink{pair_8h_af6d80627dcaa387b1af1c1ec0ed9384a}{t\+\_\+pair\+\_\+init} (\hyperlink{dictionary_8h_a5bd3b2ce42b776c76755ec65642f43af}{dictionary} $\ast$ini)
+\begin{DoxyCompactList}\small\item\em Initialize the structure t\+\_\+pair. \end{DoxyCompactList}\item 
+void \hyperlink{pair_8h_ac5388d9778f72101d7721aef5ba9f6b2}{pair\+\_\+init} (\hyperlink{structt__key}{t\+\_\+key} $\ast$k, \hyperlink{pair_8h_a7a46339856d8d9d1e39044566733c42f}{t\+\_\+pair} $\ast$p)
+\begin{DoxyCompactList}\small\item\em Initialize pair interaction. \end{DoxyCompactList}\item 
+void \hyperlink{pair_8h_a25b3278e216c39fab17774269e4bde6c}{pair} (\hyperlink{structt__key}{t\+\_\+key} $\ast$key, \hyperlink{structt__p_sys}{t\+\_\+p\+Sys} $\ast$p\+Sys, \hyperlink{pair_8h_a7a46339856d8d9d1e39044566733c42f}{t\+\_\+pair} $\ast$p)
+\begin{DoxyCompactList}\small\item\em Run pair interaction. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Pair module header. 
+
+\begin{DoxyAuthor}{Author}
+Eugene Kolivoshko (\href{mailto:ekolivoshko@gmail.com}{\tt ekolivoshko@gmail.\+com}) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+August 8 2015 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyCopyright}{Copyright}
+G\+N\+U Public License. 
+\end{DoxyCopyright}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{pair_8h_a31c3b7a132ba8cec8e7f5ad3138f940f}{}\index{pair.\+h@{pair.\+h}!K\+C\+O\+U\+L@{K\+C\+O\+U\+L}}
+\index{K\+C\+O\+U\+L@{K\+C\+O\+U\+L}!pair.\+h@{pair.\+h}}
+\subsubsection[{K\+C\+O\+U\+L}]{\setlength{\rightskip}{0pt plus 5cm}\#define K\+C\+O\+U\+L~0}\label{pair_8h_a31c3b7a132ba8cec8e7f5ad3138f940f}
+\mbox{[}e\+V$\ast$\+A/(+e$\ast$$\ast$2)\mbox{]} 
+
+Definition at line 13 of file pair.\+h.
+
+
+
+\subsection{Typedef Documentation}
+\hypertarget{pair_8h_a7a46339856d8d9d1e39044566733c42f}{}\index{pair.\+h@{pair.\+h}!t\+\_\+pair@{t\+\_\+pair}}
+\index{t\+\_\+pair@{t\+\_\+pair}!pair.\+h@{pair.\+h}}
+\subsubsection[{t\+\_\+pair}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf \+\_\+t\+\_\+pair}  {\bf t\+\_\+pair}}\label{pair_8h_a7a46339856d8d9d1e39044566733c42f}
+
+
+Pair object. 
+
+This object saves variable pair interaction. 
+
+\subsection{Function Documentation}
+\hypertarget{pair_8h_a25b3278e216c39fab17774269e4bde6c}{}\index{pair.\+h@{pair.\+h}!pair@{pair}}
+\index{pair@{pair}!pair.\+h@{pair.\+h}}
+\subsubsection[{pair(t\+\_\+key $\ast$key, t\+\_\+p\+Sys $\ast$p\+Sys, t\+\_\+pair $\ast$p)}]{\setlength{\rightskip}{0pt plus 5cm}void pair (
+\begin{DoxyParamCaption}
+\item[{{\bf t\+\_\+key} $\ast$}]{key, }
+\item[{{\bf t\+\_\+p\+Sys} $\ast$}]{p\+Sys, }
+\item[{{\bf t\+\_\+pair} $\ast$}]{p}
+\end{DoxyParamCaption}
+)}\label{pair_8h_a25b3278e216c39fab17774269e4bde6c}
+
+
+Run pair interaction. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & Key structures\+: program management modules \\
+\hline
+{\em p\+Sys} & System object \\
+\hline
+{\em p} & This object have a variable pair interaction. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 71 of file pair.\+c.
+
+\hypertarget{pair_8h_ac5388d9778f72101d7721aef5ba9f6b2}{}\index{pair.\+h@{pair.\+h}!pair\+\_\+init@{pair\+\_\+init}}
+\index{pair\+\_\+init@{pair\+\_\+init}!pair.\+h@{pair.\+h}}
+\subsubsection[{pair\+\_\+init(t\+\_\+key $\ast$k, t\+\_\+pair $\ast$p)}]{\setlength{\rightskip}{0pt plus 5cm}void pair\+\_\+init (
+\begin{DoxyParamCaption}
+\item[{{\bf t\+\_\+key} $\ast$}]{k, }
+\item[{{\bf t\+\_\+pair} $\ast$}]{p}
+\end{DoxyParamCaption}
+)}\label{pair_8h_ac5388d9778f72101d7721aef5ba9f6b2}
+
+
+Initialize pair interaction. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & Key structures\+: program management modules \\
+\hline
+{\em p} & This object have a variable pair interaction. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void
+\end{DoxyReturn}
+Calculate pair interaction constant matrix 
+
+Definition at line 65 of file pair.\+c.
+
+\hypertarget{pair_8h_af6d80627dcaa387b1af1c1ec0ed9384a}{}\index{pair.\+h@{pair.\+h}!t\+\_\+pair\+\_\+init@{t\+\_\+pair\+\_\+init}}
+\index{t\+\_\+pair\+\_\+init@{t\+\_\+pair\+\_\+init}!pair.\+h@{pair.\+h}}
+\subsubsection[{t\+\_\+pair\+\_\+init(dictionary $\ast$ini)}]{\setlength{\rightskip}{0pt plus 5cm}{\bf t\+\_\+pair} t\+\_\+pair\+\_\+init (
+\begin{DoxyParamCaption}
+\item[{{\bf dictionary} $\ast$}]{ini}
+\end{DoxyParamCaption}
+)}\label{pair_8h_af6d80627dcaa387b1af1c1ec0ed9384a}
+
+
+Initialize the structure t\+\_\+pair. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ini} & Dictionary to search \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Initialized t\+\_\+pair structure 
+\end{DoxyReturn}
+
+
+Definition at line 36 of file pair.\+c.
+
+
+
+Here is the call graph for this function\+:
+% FIG 1
+
+

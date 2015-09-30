@@ -1,0 +1,10 @@
+<map id="compute_init" name="compute_init">
+<area shape="rect" id="node2" href="$rdf_8c.html#a8ff82a2c5316b86558e24dfea648a063" title="Initialize the structure t_rdf. " alt="" coords="149,81,221,108"/>
+<area shape="rect" id="node3" href="$iniparser_8c.html#a804f414936e4ba4524a358a8d898880e" title="Get the string associated to a key, convert to a double. " alt="" coords="269,5,404,32"/>
+<area shape="rect" id="node4" href="$iniparser_8c.html#a7894f8480e1f254d4a1b4a31bdc51b46" title="Get the string associated to a key. " alt="" coords="452,56,580,83"/>
+<area shape="rect" id="node7" href="$log_8c.html#a55556e25c0ae1430d8bb2e458209253f" title="logs a ERROR message; execution is interrupted " alt="" coords="306,157,367,184"/>
+<area shape="rect" id="node9" href="$iniparser_8c.html#a694eb1110f4200db8648820a0bb405fa" title="Get the string associated to a key, convert to an int. " alt="" coords="281,107,392,133"/>
+<area shape="rect" id="node5" href="$dictionary_8c.html#a967311464f457bcb8150ce981ef3c6dd" title="Get a value from a dictionary. " alt="" coords="628,56,731,83"/>
+<area shape="rect" id="node6" href="$dictionary_8c.html#a7c1ef0a729e668d1e8d6a7e774feaf2e" title="Compute the hash key for a string. " alt="" coords="779,56,892,83"/>
+<area shape="rect" id="node8" href="$log_8c.html#aedaf8d67bc16ed5663479b8ecc63478b" title="print message to stderr and to log file " alt="" coords="468,157,564,184"/>
+</map>

@@ -1,0 +1,187 @@
+\hypertarget{compute_8c}{}\section{compute.\+c File Reference}
+\label{compute_8c}\index{compute.\+c@{compute.\+c}}
+
+
+Compute module.  
+
+
+{\ttfamily \#include \char`\"{}compute.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}math.\+h\char`\"{}}\\*
+Include dependency graph for compute.\+c\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{compute_8c_a40a977316380b0efc52ab4f9ff64df10}{}void {\bfseries compute\+Distribution} (\hyperlink{structt__p_sys}{t\+\_\+p\+Sys} p\+Sys)\label{compute_8c_a40a977316380b0efc52ab4f9ff64df10}
+
+\item 
+\hypertarget{compute_8c_acb22d0c6776bb2c502c3956a1c179918}{}void {\bfseries compute\+\_\+pe} (\hyperlink{structt__p_sys}{t\+\_\+p\+Sys} p\+Sys)\label{compute_8c_acb22d0c6776bb2c502c3956a1c179918}
+
+\item 
+\hypertarget{compute_8c_ad4d6a3ba681cfc8b7e779e054b2104bf}{}void {\bfseries compute\+\_\+ke} (\hyperlink{structt__p_sys}{t\+\_\+p\+Sys} p\+Sys)\label{compute_8c_ad4d6a3ba681cfc8b7e779e054b2104bf}
+
+\item 
+\hyperlink{structt__compute}{t\+\_\+compute} \hyperlink{compute_8c_af04af5fb54be926dfdecaa8c846f7800}{compute\+\_\+init} (\hyperlink{dictionary_8h_a5bd3b2ce42b776c76755ec65642f43af}{dictionary} $\ast$ini, \hyperlink{structt__key}{t\+\_\+key} $\ast$key)
+\begin{DoxyCompactList}\small\item\em Initialize the structure \hyperlink{structt__compute}{t\+\_\+compute}. \end{DoxyCompactList}\item 
+void \hyperlink{compute_8c_a795dbdb06a27d79b424e2e45cfaf2926}{compute\+\_\+run} (\hyperlink{structt__key}{t\+\_\+key} $\ast$key, \hyperlink{structt__p_sys}{t\+\_\+p\+Sys} $\ast$p\+Sys, \hyperlink{structt__opts}{t\+\_\+opts} $\ast$opts, \hyperlink{structt__compute}{t\+\_\+compute} $\ast$compute)
+\begin{DoxyCompactList}\small\item\em Run compute modules. \end{DoxyCompactList}\item 
+void \hyperlink{compute_8c_a983e3c1793481006c71705cfbafee586}{compute\+\_\+dr} (\hyperlink{structt__key}{t\+\_\+key} $\ast$key, \hyperlink{structt__compute}{t\+\_\+compute} $\ast$compute, double $\ast$dr)
+\begin{DoxyCompactList}\small\item\em Run dr submodule compute module. \end{DoxyCompactList}\item 
+void \hyperlink{compute_8c_abcad23b3e1f4eab597925e695c798385}{compute\+Temp} (\hyperlink{structt__p_sys}{t\+\_\+p\+Sys} $\ast$p\+Sys)
+\begin{DoxyCompactList}\small\item\em Calculate system temperature. \end{DoxyCompactList}\item 
+\hypertarget{compute_8c_a15fa5ddead8bed450fb34b14c3d96480}{}void {\bfseries compute\+Pair\+Forces} (\hyperlink{structt__key}{t\+\_\+key} $\ast$key, \hyperlink{structt__p_sys}{t\+\_\+p\+Sys} $\ast$p\+Sys, \hyperlink{pair_8h_a7a46339856d8d9d1e39044566733c42f}{t\+\_\+pair} $\ast$p)\label{compute_8c_a15fa5ddead8bed450fb34b14c3d96480}
+
+\item 
+\hypertarget{compute_8c_a99e70307ffa97871590b275520662219}{}double $\ast$ {\bfseries compute\+Velosity} (\hyperlink{structt__p_sys}{t\+\_\+p\+Sys} p\+Sys)\label{compute_8c_a99e70307ffa97871590b275520662219}
+
+\item 
+\hypertarget{compute_8c_a9d5c46d2b8dc64ea35724ecf4d63ab65}{}void {\bfseries compute\+Velosity\+Distribution} (double $\ast$vel, int size)\label{compute_8c_a9d5c46d2b8dc64ea35724ecf4d63ab65}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Compute module. 
+
+\begin{DoxyAuthor}{Author}
+Eugene Kolivoshko (\href{mailto:ekolivoshko@gmail.com}{\tt ekolivoshko@gmail.\+com}) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+July 30 2015 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyCopyright}{Copyright}
+G\+N\+U Public License. 
+\end{DoxyCopyright}
+
+
+\subsection{Function Documentation}
+\hypertarget{compute_8c_a983e3c1793481006c71705cfbafee586}{}\index{compute.\+c@{compute.\+c}!compute\+\_\+dr@{compute\+\_\+dr}}
+\index{compute\+\_\+dr@{compute\+\_\+dr}!compute.\+c@{compute.\+c}}
+\subsubsection[{compute\+\_\+dr(t\+\_\+key $\ast$key, t\+\_\+compute $\ast$compute, double $\ast$dr)}]{\setlength{\rightskip}{0pt plus 5cm}void compute\+\_\+dr (
+\begin{DoxyParamCaption}
+\item[{{\bf t\+\_\+key} $\ast$}]{key, }
+\item[{{\bf t\+\_\+compute} $\ast$}]{compute, }
+\item[{double $\ast$}]{dr}
+\end{DoxyParamCaption}
+)}\label{compute_8c_a983e3c1793481006c71705cfbafee586}
+
+
+Run dr submodule compute module. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & Key structures\+: program management modules \\
+\hline
+{\em compute} & This object saves variable compute commands. \\
+\hline
+{\em dr} & Double distance between two atoms variable \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 54 of file compute.\+c.
+
+\hypertarget{compute_8c_af04af5fb54be926dfdecaa8c846f7800}{}\index{compute.\+c@{compute.\+c}!compute\+\_\+init@{compute\+\_\+init}}
+\index{compute\+\_\+init@{compute\+\_\+init}!compute.\+c@{compute.\+c}}
+\subsubsection[{compute\+\_\+init(dictionary $\ast$ini, t\+\_\+key $\ast$key)}]{\setlength{\rightskip}{0pt plus 5cm}{\bf t\+\_\+compute} compute\+\_\+init (
+\begin{DoxyParamCaption}
+\item[{{\bf dictionary} $\ast$}]{ini, }
+\item[{{\bf t\+\_\+key} $\ast$}]{key}
+\end{DoxyParamCaption}
+)}\label{compute_8c_af04af5fb54be926dfdecaa8c846f7800}
+
+
+Initialize the structure \hyperlink{structt__compute}{t\+\_\+compute}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ini} & Dictionary to search \\
+\hline
+{\em key} & Key structures\+: program management modules \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Initialized \hyperlink{structt__compute}{t\+\_\+compute} structure 
+\end{DoxyReturn}
+
+
+Definition at line 24 of file compute.\+c.
+
+
+
+Here is the call graph for this function\+:
+% FIG 1
+
+
+\hypertarget{compute_8c_a795dbdb06a27d79b424e2e45cfaf2926}{}\index{compute.\+c@{compute.\+c}!compute\+\_\+run@{compute\+\_\+run}}
+\index{compute\+\_\+run@{compute\+\_\+run}!compute.\+c@{compute.\+c}}
+\subsubsection[{compute\+\_\+run(t\+\_\+key $\ast$key, t\+\_\+p\+Sys $\ast$p\+Sys, t\+\_\+opts $\ast$opts, t\+\_\+compute $\ast$compute)}]{\setlength{\rightskip}{0pt plus 5cm}void compute\+\_\+run (
+\begin{DoxyParamCaption}
+\item[{{\bf t\+\_\+key} $\ast$}]{key, }
+\item[{{\bf t\+\_\+p\+Sys} $\ast$}]{p\+Sys, }
+\item[{{\bf t\+\_\+opts} $\ast$}]{opts, }
+\item[{{\bf t\+\_\+compute} $\ast$}]{compute}
+\end{DoxyParamCaption}
+)}\label{compute_8c_a795dbdb06a27d79b424e2e45cfaf2926}
+
+
+Run compute modules. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & Key structures\+: program management modules \\
+\hline
+{\em p\+Sys} & System object \\
+\hline
+{\em opts} & Properties modeling module \\
+\hline
+{\em compute} & This object saves variable compute commands. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 40 of file compute.\+c.
+
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=267pt]{compute_8c_a795dbdb06a27d79b424e2e45cfaf2926_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{compute_8c_abcad23b3e1f4eab597925e695c798385}{}\index{compute.\+c@{compute.\+c}!compute\+Temp@{compute\+Temp}}
+\index{compute\+Temp@{compute\+Temp}!compute.\+c@{compute.\+c}}
+\subsubsection[{compute\+Temp(t\+\_\+p\+Sys $\ast$p\+Sys)}]{\setlength{\rightskip}{0pt plus 5cm}void compute\+Temp (
+\begin{DoxyParamCaption}
+\item[{{\bf t\+\_\+p\+Sys} $\ast$}]{p\+Sys}
+\end{DoxyParamCaption}
+)}\label{compute_8c_abcad23b3e1f4eab597925e695c798385}
+
+
+Calculate system temperature. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+Sys} & System object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 70 of file compute.\+c.
+

@@ -1,0 +1,11 @@
+<map id="struct.c" name="struct.c">
+<area shape="rect" id="node2" href="$struct_8h.html" title="Implements a system, options and key structures. " alt="" coords="215,80,282,107"/>
+<area shape="rect" id="node3" href="$dump_8h.html" title="Dump module header. " alt="" coords="5,155,71,181"/>
+<area shape="rect" id="node4" href="$main_8c.html" title="Molecular modeling program. " alt="" coords="178,229,239,256"/>
+<area shape="rect" id="node5" href="$fix_8h.html" title="Fix module header. " alt="" coords="147,155,193,181"/>
+<area shape="rect" id="node6" href="$input_8h.html" title="Input module header. " alt="" coords="218,155,279,181"/>
+<area shape="rect" id="node7" href="$parsefile_8h.html" title="parsefile.h" alt="" coords="491,155,572,181"/>
+<area shape="rect" id="node9" href="$pair_8h.html" title="Pair module header. " alt="" coords="304,155,359,181"/>
+<area shape="rect" id="node10" href="$compute_8h.html" title="Compute module. " alt="" coords="383,155,466,181"/>
+<area shape="rect" id="node8" href="$parsefile_8c.html" title="parsefile.c" alt="" coords="491,229,572,256"/>
+</map>

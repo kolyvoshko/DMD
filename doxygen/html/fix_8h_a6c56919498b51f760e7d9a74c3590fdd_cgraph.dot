@@ -1,0 +1,21 @@
+digraph "fix_init"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="fix_init",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="t_term_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$thermostat_8c.html#af123f3443ee2054416e5a9fc2b37035a",tooltip="Initialize the structure t_term. "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="iniparser_getint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$iniparser_8c.html#a694eb1110f4200db8648820a0bb405fa",tooltip="Get the string associated to a key, convert to an int. "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="iniparser_getstring",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$iniparser_8c.html#a7894f8480e1f254d4a1b4a31bdc51b46",tooltip="Get the string associated to a key. "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="dictionary_get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dictionary_8c.html#a967311464f457bcb8150ce981ef3c6dd",tooltip="Get a value from a dictionary. "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="dictionary_hash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dictionary_8c.html#a7c1ef0a729e668d1e8d6a7e774feaf2e",tooltip="Compute the hash key for a string. "];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ReportErrorMesage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$log_8c.html#a77b29ce4dcc3e3670bc20d4448f03123",tooltip="Report from Error message to stderr and to log file. "];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="printErrorLog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$log_8c.html#aedaf8d67bc16ed5663479b8ecc63478b",tooltip="print error message to to log file "];
+}

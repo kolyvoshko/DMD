@@ -1,0 +1,8 @@
+<map id="init.h" name="init.h">
+<area shape="rect" id="node2" href="$struct_8h.html" title="Implements a system, options and key structures. " alt="" coords="131,229,197,256"/>
+<area shape="rect" id="node9" href="$compute_8h.html" title="Compute module. " alt="" coords="117,80,254,107"/>
+<area shape="rect" id="node11" href="$pair_8h.html" title="Pair module header. " alt="" coords="249,155,327,181"/>
+<area shape="rect" id="node3" href="$iniparser_8h.html" title="Parser for ini files. " alt="" coords="81,304,247,331"/>
+<area shape="rect" id="node7" href="$dictionary_8h.html" title="Implements a dictionary for string variables. " alt="" coords="161,379,250,405"/>
+<area shape="rect" id="node10" href="$rdf_8h.html" title="Compute radial distribution function module header. " alt="" coords="171,155,218,181"/>
+</map>

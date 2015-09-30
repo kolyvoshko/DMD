@@ -1,0 +1,351 @@
+\hypertarget{old_2parsefile_8c}{}\section{parsefile.\+c File Reference}
+\label{old_2parsefile_8c}\index{parsefile.\+c@{parsefile.\+c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$string.\+h$>$}\\*
+{\ttfamily \#include $<$ctype.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}parsefile.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}iniparser.\+h\char`\"{}}\\*
+Include dependency graph for old/parsefile.c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{old_2parsefile_8c__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=141pt]{old_2parsefile_8c__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct___key_val}{\+\_\+\+Key\+Val}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef enum \hyperlink{iniparser_8c_a2fdd0675424601a39f3534cf0088822c}{\+\_\+line\+\_\+status\+\_\+} \hyperlink{old_2parsefile_8c_adc101255f1686a23210fb9ea88394d46}{line\+\_\+status}
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822c}{\+\_\+line\+\_\+status\+\_\+} \{ \\*
+\hyperlink{iniparser_8c_a2fdd0675424601a39f3534cf0088822cae8deb35d61b666841f30be6b33dbb6e6}{L\+I\+N\+E\+\_\+\+U\+N\+P\+R\+O\+C\+E\+S\+S\+E\+D}, 
+\hyperlink{iniparser_8c_a2fdd0675424601a39f3534cf0088822cacabc82d28b99b2752b44952d9f25cc12}{L\+I\+N\+E\+\_\+\+E\+R\+R\+O\+R}, 
+\hyperlink{iniparser_8c_a2fdd0675424601a39f3534cf0088822caf8bdc180e3ccc9b55f583e9b9357c666}{L\+I\+N\+E\+\_\+\+E\+M\+P\+T\+Y}, 
+\hyperlink{iniparser_8c_a2fdd0675424601a39f3534cf0088822ca89af02a41ffc71bee75cc281c8f586a3}{L\+I\+N\+E\+\_\+\+C\+O\+M\+M\+E\+N\+T}, 
+\\*
+\hyperlink{iniparser_8c_a2fdd0675424601a39f3534cf0088822ca392ca597d41dd3dc49b4a54100b8197e}{L\+I\+N\+E\+\_\+\+S\+E\+C\+T\+I\+O\+N}, 
+\hyperlink{iniparser_8c_a2fdd0675424601a39f3534cf0088822cad9299150994ee09dd387cb6566e4a63e}{L\+I\+N\+E\+\_\+\+V\+A\+L\+U\+E}, 
+\hyperlink{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822cae8deb35d61b666841f30be6b33dbb6e6}{L\+I\+N\+E\+\_\+\+U\+N\+P\+R\+O\+C\+E\+S\+S\+E\+D}, 
+\hyperlink{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822cacabc82d28b99b2752b44952d9f25cc12}{L\+I\+N\+E\+\_\+\+E\+R\+R\+O\+R}, 
+\\*
+\hyperlink{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822caf8bdc180e3ccc9b55f583e9b9357c666}{L\+I\+N\+E\+\_\+\+E\+M\+P\+T\+Y}, 
+\hyperlink{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822ca89af02a41ffc71bee75cc281c8f586a3}{L\+I\+N\+E\+\_\+\+C\+O\+M\+M\+E\+N\+T}, 
+\hyperlink{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822ca392ca597d41dd3dc49b4a54100b8197e}{L\+I\+N\+E\+\_\+\+S\+E\+C\+T\+I\+O\+N}, 
+\hyperlink{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822cad9299150994ee09dd387cb6566e4a63e}{L\+I\+N\+E\+\_\+\+V\+A\+L\+U\+E}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+static char $\ast$$\ast$ \hyperlink{old_2parsefile_8c_a8033e5193ebc3fb2dd186892618151f4}{read\+File} (char $\ast$filename)
+\item 
+static char $\ast$$\ast$ \hyperlink{old_2parsefile_8c_a1d5b2688bab829362cf17d39430d3bb3}{read\+Lines} (F\+I\+L\+E $\ast$txt, int $\ast$\hyperlink{old_2parsefile_8c_a3c7f1b7c27d101c028eebdfc9b11903a}{count})
+\item 
+static \hyperlink{struct___key_val}{\+\_\+\+Key\+Val} $\ast$ \hyperlink{old_2parsefile_8c_ad3b2404e721ef5f6a5d303f1489fb160}{read\+To\+Key\+List} (F\+I\+L\+E $\ast$txt, int $\ast$\hyperlink{old_2parsefile_8c_a3c7f1b7c27d101c028eebdfc9b11903a}{count})
+\item 
+static double \hyperlink{old_2parsefile_8c_a02128d55cad7eb64703038be5d3d3fc1}{get\+Key\+Double} (char $\ast$key, double def\+\_\+val, char $\ast$$\ast$mass\+Key)
+\item 
+static int \hyperlink{old_2parsefile_8c_a716c1b277464a4d4b71ac5a58eb690aa}{get\+Key\+Int} (char $\ast$key, int def\+\_\+val, char $\ast$$\ast$mass\+Key)
+\item 
+static char $\ast$ \hyperlink{old_2parsefile_8c_a5ea9293fc96a8d0991d695f7b644c8d9}{get\+Key\+Char} (char $\ast$key, char $\ast$def\+\_\+val, char $\ast$$\ast$mass\+Key)
+\item 
+void \hyperlink{old_2parsefile_8c_a95ab929835a0c5c0f71104a3813d8daf}{print\+File} ()
+\item 
+void \hyperlink{old_2parsefile_8c_a31b1b93d4ac2c8b27434a1ac550d2889}{parse\+File} (char $\ast$filename)
+\item 
+\hyperlink{old_2parsefile_8c_aae5673028b940fa6e82869dc466f0472}{while} (fgets(\hyperlink{old_2parsefile_8c_a0c6df9ab9f2bcf06209ed35075dda78a}{line}, sizeof(\hyperlink{old_2parsefile_8c_a0c6df9ab9f2bcf06209ed35075dda78a}{line}), txt)!=N\+U\+L\+L)
+\item 
+\hyperlink{old_2parsefile_8c_aeff13b1d9064cc492cf213a02486d085}{rewind} (txt)
+\item 
+\hyperlink{old_2parsefile_8c_a11091867b1c29553cc4b40d250e6b0b3}{if} (\hyperlink{old_2parsefile_8c_a5ed762a2a971dee471a4625ce03534d1}{array}==N\+U\+L\+L)
+\item 
+\hyperlink{old_2parsefile_8c_a4c78ecd9846adfc5d1d6cb1a2b97ac2d}{for} (\hyperlink{old_2parsefile_8c_acb559820d9ca11295b4500f179ef6392}{i}=0;\hyperlink{old_2parsefile_8c_acb559820d9ca11295b4500f179ef6392}{i}$<$ \hyperlink{old_2parsefile_8c_a5da6c0669b205fe6dad5b5e3dc1e7b18}{line\+\_\+count};\hyperlink{old_2parsefile_8c_acb559820d9ca11295b4500f179ef6392}{i}++)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{struct___key_val}{\+\_\+\+Key\+Val} $\ast$ \hyperlink{old_2parsefile_8c_a9df1e67bb88bfa67acb13378de41d1be}{arr\+Key\+Val}
+\item 
+int \hyperlink{old_2parsefile_8c_acb559820d9ca11295b4500f179ef6392}{i}
+\item 
+char \hyperlink{old_2parsefile_8c_a0c6df9ab9f2bcf06209ed35075dda78a}{line} \mbox{[}100\mbox{]}
+\item 
+int \hyperlink{old_2parsefile_8c_a5da6c0669b205fe6dad5b5e3dc1e7b18}{line\+\_\+count} = 0
+\item 
+int \hyperlink{old_2parsefile_8c_a49a09fbeb5bd9efcdd14e9a81a0b95a1}{line\+\_\+length}
+\item 
+$\ast$ \hyperlink{old_2parsefile_8c_a3c7f1b7c27d101c028eebdfc9b11903a}{count} = 0
+\item 
+\hyperlink{old_2parsefile_8c_a5ed762a2a971dee471a4625ce03534d1}{array} = malloc(\hyperlink{old_2parsefile_8c_a5da6c0669b205fe6dad5b5e3dc1e7b18}{line\+\_\+count} $\ast$ sizeof(char $\ast$))
+\end{DoxyCompactItemize}
+
+
+\subsection{Typedef Documentation}
+\hypertarget{old_2parsefile_8c_adc101255f1686a23210fb9ea88394d46}{}\index{old/parsefile.\+c@{old/parsefile.\+c}!line\+\_\+status@{line\+\_\+status}}
+\index{line\+\_\+status@{line\+\_\+status}!old/parsefile.\+c@{old/parsefile.\+c}}
+\subsubsection[{line\+\_\+status}]{\setlength{\rightskip}{0pt plus 5cm}typedef enum {\bf \+\_\+line\+\_\+status\+\_\+}  {\bf line\+\_\+status}}\label{old_2parsefile_8c_adc101255f1686a23210fb9ea88394d46}
+This enum stores the status for each parsed line (internal use only). 
+
+\subsection{Enumeration Type Documentation}
+\hypertarget{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822c}{}\index{old/parsefile.\+c@{old/parsefile.\+c}!\+\_\+line\+\_\+status\+\_\+@{\+\_\+line\+\_\+status\+\_\+}}
+\index{\+\_\+line\+\_\+status\+\_\+@{\+\_\+line\+\_\+status\+\_\+}!old/parsefile.\+c@{old/parsefile.\+c}}
+\subsubsection[{\+\_\+line\+\_\+status\+\_\+}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf \+\_\+line\+\_\+status\+\_\+}}\label{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822c}
+This enum stores the status for each parsed line (internal use only). \begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{L\+I\+N\+E\+\_\+\+U\+N\+P\+R\+O\+C\+E\+S\+S\+E\+D@{L\+I\+N\+E\+\_\+\+U\+N\+P\+R\+O\+C\+E\+S\+S\+E\+D}!old/parsefile.\+c@{old/parsefile.\+c}}\index{old/parsefile.\+c@{old/parsefile.\+c}!L\+I\+N\+E\+\_\+\+U\+N\+P\+R\+O\+C\+E\+S\+S\+E\+D@{L\+I\+N\+E\+\_\+\+U\+N\+P\+R\+O\+C\+E\+S\+S\+E\+D}}\item[{\em 
+\hypertarget{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822cae8deb35d61b666841f30be6b33dbb6e6}{}L\+I\+N\+E\+\_\+\+U\+N\+P\+R\+O\+C\+E\+S\+S\+E\+D\label{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822cae8deb35d61b666841f30be6b33dbb6e6}
+}]\index{L\+I\+N\+E\+\_\+\+E\+R\+R\+O\+R@{L\+I\+N\+E\+\_\+\+E\+R\+R\+O\+R}!old/parsefile.\+c@{old/parsefile.\+c}}\index{old/parsefile.\+c@{old/parsefile.\+c}!L\+I\+N\+E\+\_\+\+E\+R\+R\+O\+R@{L\+I\+N\+E\+\_\+\+E\+R\+R\+O\+R}}\item[{\em 
+\hypertarget{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822cacabc82d28b99b2752b44952d9f25cc12}{}L\+I\+N\+E\+\_\+\+E\+R\+R\+O\+R\label{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822cacabc82d28b99b2752b44952d9f25cc12}
+}]\index{L\+I\+N\+E\+\_\+\+E\+M\+P\+T\+Y@{L\+I\+N\+E\+\_\+\+E\+M\+P\+T\+Y}!old/parsefile.\+c@{old/parsefile.\+c}}\index{old/parsefile.\+c@{old/parsefile.\+c}!L\+I\+N\+E\+\_\+\+E\+M\+P\+T\+Y@{L\+I\+N\+E\+\_\+\+E\+M\+P\+T\+Y}}\item[{\em 
+\hypertarget{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822caf8bdc180e3ccc9b55f583e9b9357c666}{}L\+I\+N\+E\+\_\+\+E\+M\+P\+T\+Y\label{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822caf8bdc180e3ccc9b55f583e9b9357c666}
+}]\index{L\+I\+N\+E\+\_\+\+C\+O\+M\+M\+E\+N\+T@{L\+I\+N\+E\+\_\+\+C\+O\+M\+M\+E\+N\+T}!old/parsefile.\+c@{old/parsefile.\+c}}\index{old/parsefile.\+c@{old/parsefile.\+c}!L\+I\+N\+E\+\_\+\+C\+O\+M\+M\+E\+N\+T@{L\+I\+N\+E\+\_\+\+C\+O\+M\+M\+E\+N\+T}}\item[{\em 
+\hypertarget{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822ca89af02a41ffc71bee75cc281c8f586a3}{}L\+I\+N\+E\+\_\+\+C\+O\+M\+M\+E\+N\+T\label{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822ca89af02a41ffc71bee75cc281c8f586a3}
+}]\index{L\+I\+N\+E\+\_\+\+S\+E\+C\+T\+I\+O\+N@{L\+I\+N\+E\+\_\+\+S\+E\+C\+T\+I\+O\+N}!old/parsefile.\+c@{old/parsefile.\+c}}\index{old/parsefile.\+c@{old/parsefile.\+c}!L\+I\+N\+E\+\_\+\+S\+E\+C\+T\+I\+O\+N@{L\+I\+N\+E\+\_\+\+S\+E\+C\+T\+I\+O\+N}}\item[{\em 
+\hypertarget{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822ca392ca597d41dd3dc49b4a54100b8197e}{}L\+I\+N\+E\+\_\+\+S\+E\+C\+T\+I\+O\+N\label{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822ca392ca597d41dd3dc49b4a54100b8197e}
+}]\index{L\+I\+N\+E\+\_\+\+V\+A\+L\+U\+E@{L\+I\+N\+E\+\_\+\+V\+A\+L\+U\+E}!old/parsefile.\+c@{old/parsefile.\+c}}\index{old/parsefile.\+c@{old/parsefile.\+c}!L\+I\+N\+E\+\_\+\+V\+A\+L\+U\+E@{L\+I\+N\+E\+\_\+\+V\+A\+L\+U\+E}}\item[{\em 
+\hypertarget{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822cad9299150994ee09dd387cb6566e4a63e}{}L\+I\+N\+E\+\_\+\+V\+A\+L\+U\+E\label{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822cad9299150994ee09dd387cb6566e4a63e}
+}]\index{L\+I\+N\+E\+\_\+\+U\+N\+P\+R\+O\+C\+E\+S\+S\+E\+D@{L\+I\+N\+E\+\_\+\+U\+N\+P\+R\+O\+C\+E\+S\+S\+E\+D}!old/parsefile.\+c@{old/parsefile.\+c}}\index{old/parsefile.\+c@{old/parsefile.\+c}!L\+I\+N\+E\+\_\+\+U\+N\+P\+R\+O\+C\+E\+S\+S\+E\+D@{L\+I\+N\+E\+\_\+\+U\+N\+P\+R\+O\+C\+E\+S\+S\+E\+D}}\item[{\em 
+\hypertarget{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822cae8deb35d61b666841f30be6b33dbb6e6}{}L\+I\+N\+E\+\_\+\+U\+N\+P\+R\+O\+C\+E\+S\+S\+E\+D\label{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822cae8deb35d61b666841f30be6b33dbb6e6}
+}]\index{L\+I\+N\+E\+\_\+\+E\+R\+R\+O\+R@{L\+I\+N\+E\+\_\+\+E\+R\+R\+O\+R}!old/parsefile.\+c@{old/parsefile.\+c}}\index{old/parsefile.\+c@{old/parsefile.\+c}!L\+I\+N\+E\+\_\+\+E\+R\+R\+O\+R@{L\+I\+N\+E\+\_\+\+E\+R\+R\+O\+R}}\item[{\em 
+\hypertarget{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822cacabc82d28b99b2752b44952d9f25cc12}{}L\+I\+N\+E\+\_\+\+E\+R\+R\+O\+R\label{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822cacabc82d28b99b2752b44952d9f25cc12}
+}]\index{L\+I\+N\+E\+\_\+\+E\+M\+P\+T\+Y@{L\+I\+N\+E\+\_\+\+E\+M\+P\+T\+Y}!old/parsefile.\+c@{old/parsefile.\+c}}\index{old/parsefile.\+c@{old/parsefile.\+c}!L\+I\+N\+E\+\_\+\+E\+M\+P\+T\+Y@{L\+I\+N\+E\+\_\+\+E\+M\+P\+T\+Y}}\item[{\em 
+\hypertarget{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822caf8bdc180e3ccc9b55f583e9b9357c666}{}L\+I\+N\+E\+\_\+\+E\+M\+P\+T\+Y\label{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822caf8bdc180e3ccc9b55f583e9b9357c666}
+}]\index{L\+I\+N\+E\+\_\+\+C\+O\+M\+M\+E\+N\+T@{L\+I\+N\+E\+\_\+\+C\+O\+M\+M\+E\+N\+T}!old/parsefile.\+c@{old/parsefile.\+c}}\index{old/parsefile.\+c@{old/parsefile.\+c}!L\+I\+N\+E\+\_\+\+C\+O\+M\+M\+E\+N\+T@{L\+I\+N\+E\+\_\+\+C\+O\+M\+M\+E\+N\+T}}\item[{\em 
+\hypertarget{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822ca89af02a41ffc71bee75cc281c8f586a3}{}L\+I\+N\+E\+\_\+\+C\+O\+M\+M\+E\+N\+T\label{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822ca89af02a41ffc71bee75cc281c8f586a3}
+}]\index{L\+I\+N\+E\+\_\+\+S\+E\+C\+T\+I\+O\+N@{L\+I\+N\+E\+\_\+\+S\+E\+C\+T\+I\+O\+N}!old/parsefile.\+c@{old/parsefile.\+c}}\index{old/parsefile.\+c@{old/parsefile.\+c}!L\+I\+N\+E\+\_\+\+S\+E\+C\+T\+I\+O\+N@{L\+I\+N\+E\+\_\+\+S\+E\+C\+T\+I\+O\+N}}\item[{\em 
+\hypertarget{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822ca392ca597d41dd3dc49b4a54100b8197e}{}L\+I\+N\+E\+\_\+\+S\+E\+C\+T\+I\+O\+N\label{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822ca392ca597d41dd3dc49b4a54100b8197e}
+}]\index{L\+I\+N\+E\+\_\+\+V\+A\+L\+U\+E@{L\+I\+N\+E\+\_\+\+V\+A\+L\+U\+E}!old/parsefile.\+c@{old/parsefile.\+c}}\index{old/parsefile.\+c@{old/parsefile.\+c}!L\+I\+N\+E\+\_\+\+V\+A\+L\+U\+E@{L\+I\+N\+E\+\_\+\+V\+A\+L\+U\+E}}\item[{\em 
+\hypertarget{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822cad9299150994ee09dd387cb6566e4a63e}{}L\+I\+N\+E\+\_\+\+V\+A\+L\+U\+E\label{old_2parsefile_8c_a2fdd0675424601a39f3534cf0088822cad9299150994ee09dd387cb6566e4a63e}
+}]\end{description}
+\end{Desc}
+
+
+Definition at line 15 of file old/parsefile.\+c.
+
+
+
+\subsection{Function Documentation}
+\hypertarget{old_2parsefile_8c_a4c78ecd9846adfc5d1d6cb1a2b97ac2d}{}\index{old/parsefile.\+c@{old/parsefile.\+c}!for@{for}}
+\index{for@{for}!old/parsefile.\+c@{old/parsefile.\+c}}
+\subsubsection[{for(i=0;i$<$ line\+\_\+count;i++)}]{\setlength{\rightskip}{0pt plus 5cm}for (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{old_2parsefile_8c_a4c78ecd9846adfc5d1d6cb1a2b97ac2d}
+
+
+Definition at line 148 of file old/parsefile.\+c.
+
+\hypertarget{old_2parsefile_8c_a5ea9293fc96a8d0991d695f7b644c8d9}{}\index{old/parsefile.\+c@{old/parsefile.\+c}!get\+Key\+Char@{get\+Key\+Char}}
+\index{get\+Key\+Char@{get\+Key\+Char}!old/parsefile.\+c@{old/parsefile.\+c}}
+\subsubsection[{get\+Key\+Char(char $\ast$key, char $\ast$def\+\_\+val, char $\ast$$\ast$mass\+Key)}]{\setlength{\rightskip}{0pt plus 5cm}static char $\ast$ get\+Key\+Char (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{key, }
+\item[{char $\ast$}]{def\+\_\+val, }
+\item[{char $\ast$$\ast$}]{mass\+Key}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{old_2parsefile_8c_a5ea9293fc96a8d0991d695f7b644c8d9}
+
+
+Definition at line 189 of file old/parsefile.\+c.
+
+\hypertarget{old_2parsefile_8c_a02128d55cad7eb64703038be5d3d3fc1}{}\index{old/parsefile.\+c@{old/parsefile.\+c}!get\+Key\+Double@{get\+Key\+Double}}
+\index{get\+Key\+Double@{get\+Key\+Double}!old/parsefile.\+c@{old/parsefile.\+c}}
+\subsubsection[{get\+Key\+Double(char $\ast$key, double def\+\_\+val, char $\ast$$\ast$mass\+Key)}]{\setlength{\rightskip}{0pt plus 5cm}static double get\+Key\+Double (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{key, }
+\item[{double}]{def\+\_\+val, }
+\item[{char $\ast$$\ast$}]{mass\+Key}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{old_2parsefile_8c_a02128d55cad7eb64703038be5d3d3fc1}
+
+
+Definition at line 169 of file old/parsefile.\+c.
+
+\hypertarget{old_2parsefile_8c_a716c1b277464a4d4b71ac5a58eb690aa}{}\index{old/parsefile.\+c@{old/parsefile.\+c}!get\+Key\+Int@{get\+Key\+Int}}
+\index{get\+Key\+Int@{get\+Key\+Int}!old/parsefile.\+c@{old/parsefile.\+c}}
+\subsubsection[{get\+Key\+Int(char $\ast$key, int def\+\_\+val, char $\ast$$\ast$mass\+Key)}]{\setlength{\rightskip}{0pt plus 5cm}static int get\+Key\+Int (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{key, }
+\item[{int}]{def\+\_\+val, }
+\item[{char $\ast$$\ast$}]{mass\+Key}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{old_2parsefile_8c_a716c1b277464a4d4b71ac5a58eb690aa}
+
+
+Definition at line 184 of file old/parsefile.\+c.
+
+\hypertarget{old_2parsefile_8c_a11091867b1c29553cc4b40d250e6b0b3}{}\index{old/parsefile.\+c@{old/parsefile.\+c}!if@{if}}
+\index{if@{if}!old/parsefile.\+c@{old/parsefile.\+c}}
+\subsubsection[{if(array==\+N\+U\+L\+L)}]{\setlength{\rightskip}{0pt plus 5cm}if (
+\begin{DoxyParamCaption}
+\item[{{\bf array}}]{ = {\ttfamily =~NULL}}
+\end{DoxyParamCaption}
+)}\label{old_2parsefile_8c_a11091867b1c29553cc4b40d250e6b0b3}
+
+
+Definition at line 143 of file old/parsefile.\+c.
+
+\hypertarget{old_2parsefile_8c_a31b1b93d4ac2c8b27434a1ac550d2889}{}\index{old/parsefile.\+c@{old/parsefile.\+c}!parse\+File@{parse\+File}}
+\index{parse\+File@{parse\+File}!old/parsefile.\+c@{old/parsefile.\+c}}
+\subsubsection[{parse\+File(char $\ast$filename)}]{\setlength{\rightskip}{0pt plus 5cm}void parse\+File (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{filename}
+\end{DoxyParamCaption}
+)}\label{old_2parsefile_8c_a31b1b93d4ac2c8b27434a1ac550d2889}
+
+
+Definition at line 40 of file old/parsefile.\+c.
+
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=329pt]{old_2parsefile_8c_a31b1b93d4ac2c8b27434a1ac550d2889_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{old_2parsefile_8c_a95ab929835a0c5c0f71104a3813d8daf}{}\index{old/parsefile.\+c@{old/parsefile.\+c}!print\+File@{print\+File}}
+\index{print\+File@{print\+File}!old/parsefile.\+c@{old/parsefile.\+c}}
+\subsubsection[{print\+File()}]{\setlength{\rightskip}{0pt plus 5cm}void print\+File (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{old_2parsefile_8c_a95ab929835a0c5c0f71104a3813d8daf}
+
+
+Definition at line 37 of file old/parsefile.\+c.
+
+\hypertarget{old_2parsefile_8c_a8033e5193ebc3fb2dd186892618151f4}{}\index{old/parsefile.\+c@{old/parsefile.\+c}!read\+File@{read\+File}}
+\index{read\+File@{read\+File}!old/parsefile.\+c@{old/parsefile.\+c}}
+\subsubsection[{read\+File(char $\ast$filename)}]{\setlength{\rightskip}{0pt plus 5cm}static char$\ast$$\ast$ read\+File (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{filename}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{old_2parsefile_8c_a8033e5193ebc3fb2dd186892618151f4}
+\hypertarget{old_2parsefile_8c_a1d5b2688bab829362cf17d39430d3bb3}{}\index{old/parsefile.\+c@{old/parsefile.\+c}!read\+Lines@{read\+Lines}}
+\index{read\+Lines@{read\+Lines}!old/parsefile.\+c@{old/parsefile.\+c}}
+\subsubsection[{read\+Lines(\+F\+I\+L\+E $\ast$txt, int $\ast$count)}]{\setlength{\rightskip}{0pt plus 5cm}static char $\ast$$\ast$ read\+Lines (
+\begin{DoxyParamCaption}
+\item[{F\+I\+L\+E $\ast$}]{txt, }
+\item[{int $\ast$}]{count}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{old_2parsefile_8c_a1d5b2688bab829362cf17d39430d3bb3}
+
+
+Definition at line 72 of file old/parsefile.\+c.
+
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=219pt]{old_2parsefile_8c_a1d5b2688bab829362cf17d39430d3bb3_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{old_2parsefile_8c_ad3b2404e721ef5f6a5d303f1489fb160}{}\index{old/parsefile.\+c@{old/parsefile.\+c}!read\+To\+Key\+List@{read\+To\+Key\+List}}
+\index{read\+To\+Key\+List@{read\+To\+Key\+List}!old/parsefile.\+c@{old/parsefile.\+c}}
+\subsubsection[{read\+To\+Key\+List(\+F\+I\+L\+E $\ast$txt, int $\ast$count)}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf \+\_\+\+Key\+Val} $\ast$ read\+To\+Key\+List (
+\begin{DoxyParamCaption}
+\item[{F\+I\+L\+E $\ast$}]{txt, }
+\item[{int $\ast$}]{count}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{old_2parsefile_8c_ad3b2404e721ef5f6a5d303f1489fb160}
+\hypertarget{old_2parsefile_8c_aeff13b1d9064cc492cf213a02486d085}{}\index{old/parsefile.\+c@{old/parsefile.\+c}!rewind@{rewind}}
+\index{rewind@{rewind}!old/parsefile.\+c@{old/parsefile.\+c}}
+\subsubsection[{rewind(txt)}]{\setlength{\rightskip}{0pt plus 5cm}rewind (
+\begin{DoxyParamCaption}
+\item[{txt}]{}
+\end{DoxyParamCaption}
+)}\label{old_2parsefile_8c_aeff13b1d9064cc492cf213a02486d085}
+\hypertarget{old_2parsefile_8c_aae5673028b940fa6e82869dc466f0472}{}\index{old/parsefile.\+c@{old/parsefile.\+c}!while@{while}}
+\index{while@{while}!old/parsefile.\+c@{old/parsefile.\+c}}
+\subsubsection[{while(fgets(line, sizeof(line), txt)"!=\+N\+U\+L\+L)}]{\setlength{\rightskip}{0pt plus 5cm}while (
+\begin{DoxyParamCaption}
+\item[{fgets({\bf line}, sizeof({\bf line}), txt)!}]{ = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}\label{old_2parsefile_8c_aae5673028b940fa6e82869dc466f0472}
+
+
+Definition at line 133 of file old/parsefile.\+c.
+
+
+
+\subsection{Variable Documentation}
+\hypertarget{old_2parsefile_8c_a5ed762a2a971dee471a4625ce03534d1}{}\index{old/parsefile.\+c@{old/parsefile.\+c}!array@{array}}
+\index{array@{array}!old/parsefile.\+c@{old/parsefile.\+c}}
+\subsubsection[{array}]{\setlength{\rightskip}{0pt plus 5cm}return array = malloc({\bf line\+\_\+count} $\ast$ sizeof(char $\ast$))}\label{old_2parsefile_8c_a5ed762a2a971dee471a4625ce03534d1}
+
+
+Definition at line 142 of file old/parsefile.\+c.
+
+\hypertarget{old_2parsefile_8c_a9df1e67bb88bfa67acb13378de41d1be}{}\index{old/parsefile.\+c@{old/parsefile.\+c}!arr\+Key\+Val@{arr\+Key\+Val}}
+\index{arr\+Key\+Val@{arr\+Key\+Val}!old/parsefile.\+c@{old/parsefile.\+c}}
+\subsubsection[{arr\+Key\+Val}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \+\_\+\+Key\+Val}$\ast$ arr\+Key\+Val}\label{old_2parsefile_8c_a9df1e67bb88bfa67acb13378de41d1be}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+\{
+    \textcolor{keywordtype}{char}** \hyperlink{old_2parsefile_8c_a5ed762a2a971dee471a4625ce03534d1}{array} = NULL
+\end{DoxyCode}
+
+
+Definition at line 120 of file old/parsefile.\+c.
+
+\hypertarget{old_2parsefile_8c_a3c7f1b7c27d101c028eebdfc9b11903a}{}\index{old/parsefile.\+c@{old/parsefile.\+c}!count@{count}}
+\index{count@{count}!old/parsefile.\+c@{old/parsefile.\+c}}
+\subsubsection[{count}]{\setlength{\rightskip}{0pt plus 5cm}$\ast$ count = 0}\label{old_2parsefile_8c_a3c7f1b7c27d101c028eebdfc9b11903a}
+
+
+Definition at line 129 of file old/parsefile.\+c.
+
+\hypertarget{old_2parsefile_8c_acb559820d9ca11295b4500f179ef6392}{}\index{old/parsefile.\+c@{old/parsefile.\+c}!i@{i}}
+\index{i@{i}!old/parsefile.\+c@{old/parsefile.\+c}}
+\subsubsection[{i}]{\setlength{\rightskip}{0pt plus 5cm}int i}\label{old_2parsefile_8c_acb559820d9ca11295b4500f179ef6392}
+
+
+Definition at line 123 of file old/parsefile.\+c.
+
+\hypertarget{old_2parsefile_8c_a0c6df9ab9f2bcf06209ed35075dda78a}{}\index{old/parsefile.\+c@{old/parsefile.\+c}!line@{line}}
+\index{line@{line}!old/parsefile.\+c@{old/parsefile.\+c}}
+\subsubsection[{line}]{\setlength{\rightskip}{0pt plus 5cm}char line\mbox{[}100\mbox{]}}\label{old_2parsefile_8c_a0c6df9ab9f2bcf06209ed35075dda78a}
+
+
+Definition at line 124 of file old/parsefile.\+c.
+
+\hypertarget{old_2parsefile_8c_a5da6c0669b205fe6dad5b5e3dc1e7b18}{}\index{old/parsefile.\+c@{old/parsefile.\+c}!line\+\_\+count@{line\+\_\+count}}
+\index{line\+\_\+count@{line\+\_\+count}!old/parsefile.\+c@{old/parsefile.\+c}}
+\subsubsection[{line\+\_\+count}]{\setlength{\rightskip}{0pt plus 5cm}line\+\_\+count = 0}\label{old_2parsefile_8c_a5da6c0669b205fe6dad5b5e3dc1e7b18}
+
+
+Definition at line 125 of file old/parsefile.\+c.
+
+\hypertarget{old_2parsefile_8c_a49a09fbeb5bd9efcdd14e9a81a0b95a1}{}\index{old/parsefile.\+c@{old/parsefile.\+c}!line\+\_\+length@{line\+\_\+length}}
+\index{line\+\_\+length@{line\+\_\+length}!old/parsefile.\+c@{old/parsefile.\+c}}
+\subsubsection[{line\+\_\+length}]{\setlength{\rightskip}{0pt plus 5cm}int line\+\_\+length}\label{old_2parsefile_8c_a49a09fbeb5bd9efcdd14e9a81a0b95a1}
+
+
+Definition at line 126 of file old/parsefile.\+c.
+
