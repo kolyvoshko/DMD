@@ -93,13 +93,15 @@ static void setNewAccels (t_key *key, t_pSys *pSys, t_pair *p, t_compute *comput
             dx    = pSys->x[i] - pSys->x[j];
             dy    = pSys->y[i] - pSys->y[j];
             dz    = pSys->z[i] - pSys->z[j];
+
+            /*
             // Applying periodic boundaries to interparticular distances.
             if(dx >  pSys->lx/2.0) dx -= pSys->lx;
             if(dx < -pSys->lx/2.0) dx += pSys->lx;
             if(dy >  pSys->ly/2.0) dy -= pSys->ly;
             if(dy < -pSys->ly/2.0) dy += pSys->ly;
             if(dz >  pSys->lz/2.0) dz -= pSys->lz;
-            if(dz < -pSys->lz/2.0) dz += pSys->lz;
+            if(dz < -pSys->lz/2.0) dz += pSys->lz;*/
 
             dr    = sqrt(dx*dx + dy*dy + dz*dz);
             if (key->compute_dr) compute_dr(key, compute, &dr);

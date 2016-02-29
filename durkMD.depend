@@ -58,18 +58,18 @@
 	<math.h>
 	"fix.h"
 
-1440014610 source:e:\project\durkmd\main.c
+1440018210 source:e:\project\durkmd\main.c
 	"src/advance.h"
 	"src/verlet.h"
 	"src/out/out.h"
 
-1439579709 e:\project\durkmd\src\struct.h
+1439583309 e:\project\durkmd\src\struct.h
 	"input/iniparser/iniparser.h"
 
 1438213092 e:\project\durkmd\src\struct.c
 	"struct.h"
 
-1439067142 e:\project\durkmd\src\pair\pair.h
+1439070742 e:\project\durkmd\src\pair\pair.h
 	"../struct.h"
 
 1438213836 e:\project\durkmd\src\pair\pair.c
@@ -77,12 +77,12 @@
 	<stdlib.h>
 	<math.h>
 
-1439583233 e:\project\durkmd\src\compute\compute.h
+1439586833 e:\project\durkmd\src\compute\compute.h
 	"../struct.h"
 	"../pair/pair.h"
 	"rdf.h"
 
-1439066913 e:\project\durkmd\src\compute\rdf.h
+1439070513 e:\project\durkmd\src\compute\rdf.h
 	"../struct.h"
 
 1438214599 e:\project\durkmd\src\compute\rdf.c
@@ -91,7 +91,7 @@
 1438209520 e:\project\durkmd\src\compute\compute.c
 	"compute.h"
 
-1439067011 e:\project\durkmd\src\fix\fix.h
+1439070611 e:\project\durkmd\src\fix\fix.h
 	"../struct.h"
 	"thermostat.h"
 
@@ -153,7 +153,7 @@
 1437681335 e:\project\durkmd\src\in\in.c
 	"in.h"
 
-1439071371 e:\project\durkmd\src\input\input.h
+1439074971 e:\project\durkmd\src\input\input.h
 	"../struct.h"
 
 1437695677 e:\project\durkmd\src\input\confpars.h
@@ -183,7 +183,7 @@
 	<unistd.h>
 	"dictionary.c"
 
-1438215510 e:\project\durkmd\src\input\parsefile.h
+1438219110 e:\project\durkmd\src\input\parsefile.h
 	"../struct.h"
 
 1438118242 e:\project\durkmd\src\input\parsefile.c
@@ -204,13 +204,13 @@
 	<ctype.h>
 	"iniparser.h"
 
-1438214133 e:\project\durkmd\src\input\iniparser\iniparser.h
+1438217733 e:\project\durkmd\src\input\iniparser\iniparser.h
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"dictionary.h"
 
-1438214124 e:\project\durkmd\src\input\iniparser\dictionary.h
+1438217724 e:\project\durkmd\src\input\iniparser\dictionary.h
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -227,7 +227,7 @@
 	<ctype.h>
 	"iniparser.h"
 
-1439067053 e:\project\durkmd\src\fix\thermostat.h
+1439070653 e:\project\durkmd\src\fix\thermostat.h
 	"../struct.h"
 	"../compute/compute.h"
 
@@ -268,7 +268,7 @@
 	<ctype.h>
 	"iniparser.h"
 
-1439579798 source:e:\project\durkmd\src\struct.c
+1439583398 source:e:\project\durkmd\src\struct.c
 	"struct.h"
 	"out/out.h"
 	"utils/utils.h"
@@ -276,62 +276,62 @@
 1438212649 source:e:\project\durkmd\src\struct.h
 	"iniparser.h"
 
-1333896297 source:e:\project\durkmd\src\input\iniparser\dictionary.c
+1333899897 source:e:\project\durkmd\src\input\iniparser\dictionary.c
 	"dictionary.h"
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	<unistd.h>
 
-1333896297 source:e:\project\durkmd\src\input\iniparser\iniparser.c
+1333899897 source:e:\project\durkmd\src\input\iniparser\iniparser.c
 	<ctype.h>
 	"iniparser.h"
 
-1439583588 source:e:\project\durkmd\src\compute\compute.c
+1439587188 source:e:\project\durkmd\src\compute\compute.c
 	"compute.h"
 	"math.h"
 
-1439578847 source:e:\project\durkmd\src\compute\rdf.c
+1439582447 source:e:\project\durkmd\src\compute\rdf.c
 	"rdf.h"
 	"../out/out.h"
 
-1439578846 source:e:\project\durkmd\src\pair\pair.c
+1443658749 source:e:\project\durkmd\src\pair\pair.c
 	<stdio.h>
 	<stdlib.h>
 	<math.h>
 	"pair.h"
 	"../out/out.h"
 
-1438215478 source:e:\project\durkmd\src\input\input.c
+1438219078 source:e:\project\durkmd\src\input\input.c
 	"input.h"
 
-1438118242 source:e:\project\durkmd\src\input\parsefile.c
+1438121842 source:e:\project\durkmd\src\input\parsefile.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	<ctype.h>
 	"parsefile.h"
 
-1439066994 source:e:\project\durkmd\src\fix\fix.c
+1439070594 source:e:\project\durkmd\src\fix\fix.c
 	<stdio.h>
 	<stdlib.h>
 	<math.h>
 	"fix.h"
 
-1439578850 source:e:\project\durkmd\src\fix\thermostat.c
+1439582450 source:e:\project\durkmd\src\fix\thermostat.c
 	<stdio.h>
 	<stdlib.h>
 	<math.h>
 	"thermostat.h"
 	"../out/out.h"
 
-1439578847 source:e:\project\durkmd\src\verlet.c
+1439582447 source:e:\project\durkmd\src\verlet.c
 	<math.h>
 	"out/out.h"
 	"fix/fix.h"
 	"init.h"
 
-1439133382 e:\project\durkmd\src\advance.h
+1439136982 e:\project\durkmd\src\advance.h
 	"struct.h"
 	"compute/compute.h"
 	"out/out.h"
@@ -339,7 +339,7 @@
 	"pair/pair.h"
 	"init.h"
 
-1439134010 e:\project\durkmd\src\verlet.h
+1439137610 e:\project\durkmd\src\verlet.h
 	"struct.h"
 	"compute/compute.h"
 	"out/out.h"
@@ -347,18 +347,18 @@
 	"pair/pair.h"
 	"init.h"
 
-1439578850 source:e:\project\durkmd\src\advance.c
+1439582450 source:e:\project\durkmd\src\advance.c
 	<math.h>
 	"out/out.h"
 	"fix/fix.h"
 	"init.h"
 
-1439067074 e:\project\durkmd\src\init.h
+1439070674 e:\project\durkmd\src\init.h
 	"struct.h"
 	"compute/compute.h"
 	"pair/pair.h"
 
-1439067068 source:e:\project\durkmd\src\init.c
+1439070668 source:e:\project\durkmd\src\init.c
 	<math.h>
 	<time.h>
 	"struct.h"
@@ -377,37 +377,48 @@
 1439071468 e:\project\durkmd\src\output\out.h
 	"log.h"
 
-1439077751 e:\project\durkmd\src\out\out.h
+1439081351 e:\project\durkmd\src\out\out.h
 	"log.h"
 	"dump.h"
 
-1439578852 e:\project\durkmd\src\out\log.h
+1439582452 e:\project\durkmd\src\out\log.h
 
-1439066945 e:\project\durkmd\src\out\dump.h
+1439070545 e:\project\durkmd\src\out\dump.h
 	"../struct.h"
 
-1439578848 source:e:\project\durkmd\src\out\dump.c
+1443658717 source:e:\project\durkmd\src\out\dump.c
 	<stdio.h>
 	<stdlib.h>
 	"gd.h"
 	"log.h"
 	"dump.h"
 
-1439579506 source:e:\project\durkmd\src\out\log.c
+1439583106 source:e:\project\durkmd\src\out\log.c
 	<stdlib.h>
 	<stdio.h>
 	<stdarg.h>
 	<Windows.h>
 
-1439077731 source:e:\project\durkmd\src\out\out.c
+1439081331 source:e:\project\durkmd\src\out\out.c
 
-1439096327 source:e:\project\durkmd\src\utils\utils.c
+1439099927 source:e:\project\durkmd\src\utils\utils.c
 
-1439096335 e:\project\durkmd\src\utils\utils.h
+1439099935 e:\project\durkmd\src\utils\utils.h
 
 1439133853 source:e:\project\durkmd\src\leapfrog.c
 	<math.h>
 	"out/out.h"
 	"fix/fix.h"
 	"init.h"
+
+1109199400 c:\program files (x86)\gnuwin32\include\gd.h
+	<stdio.h>
+	"gd_io.h"
+	"gdfx.h"
+
+1098890528 c:\program files (x86)\gnuwin32\include\gd_io.h
+	<stdio.h>
+
+1098890526 c:\program files (x86)\gnuwin32\include\gdfx.h
+	"gd.h"
 
